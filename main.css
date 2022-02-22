@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html {
+    background-color: #e7b91b;
+    font-family: ‘Helvetica Neue’, sans-serif; 
+}
+
+
+h1 { 
+    color: #111;
+    font-family: ‘Helvetica Neue’, sans-serif; 
+    font-size: 50px; 
+    font-weight: bold; 
+    letter-spacing: -1px; 
+    line-height: 1; 
+    text-align: center; }
+
+h2 { 
+    color: #111; 
+    font-family: ‘Open Sans’, sans-serif; 
+    font-size: 30px; 
+    font-weight: 300; 
+    line-height: 32px; 
+    margin: 0 0 72px; 
+    text-align: center; 
+}
+
+p, select{ 
+    color: #685206; 
+    font-family: ‘Helvetica Neue’, sans-serif; 
+    font-size: 14px; 
+    line-height: 24px; 
+    margin: 0 0 24px; 
+    text-align: justify; 
+    text-justify: inter-word; 
+}
+
+
+
+  /* установим отступ 1rem от нижнего края элемента */
+  .text-field {
+    margin-bottom: 1rem;
+  }
+  /* стили для label */
+  .text-field__label {
+    display: block;
+    margin-bottom: 0.25rem;
+  }
+  /* стили для input */
+  .text-field__input {
+    display: block;
+    width: 10%;
+    height: calc(2.25rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #111;
+    border-radius: 0.75rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+
+  select {
+    /* Reset Select */
+    appearance: none;
+    outline: 0;
+    border: 10;
+    box-shadow: none;
+    background-clip: padding-box;
+    border-radius: 0.25rem;
+    /* Personalize */
+    flex: 1;
+    padding: 5px 20px;
+    color: #685206;
+    background-color: #fff;
+    cursor: pointer;
+  }
+  
+  table {
+    margin: 1em 0;
+    min-width: 300px;
+  }
+    
+  th {
+    display: none;
+    background-color: #212529;
+    color: #e7b91b;
+  }
+  th, td {
+    text-align: left;
+    display: table-cell;
+    padding: .25em .5em;
+  }
+
+  
+  div.polaroid {
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    
+    margin-top: 10px;
+    width: 30%; /* Ширина блока */
+    padding: 0 10px; /* Отступы внутри левого блока */
+    float: left; /* Обтекание блока по правому краю */
+  }
+  div.container {
+    text-align: center;
+    padding: 10px 20px;
+  }
+
+  .one {
+    margin-left: 35%; /* Отступ слева */
+    padding: 10px; /* Отступы внутри правого блока */
+   }
+
+  .two {
+    margin-left: 35%; /* Отступ слева */
+    padding: 10px; /* Отступы внутри правого блока */
+   }
+
+  .three {
+    margin-left: 35%; /* Отступ слева */
+    padding: 10px; /* Отступы внутри правого блока */
+   }
+
+  .four {
+    margin-left: 35%; /* Отступ слева */
+    padding: 10px; /* Отступы внутри правого блока */
+   }
+
+  .footer {
+    margin-left: 1%; /* Отступ слева */
+    padding: 10px; /* Отступы внутри правого блока */
+    margin-top: 10%;
+   }
+  .footer-hr {
+    margin-bottom: 1%;
+  } 
+  .footer-text {
+    margin-left: 5%;
+  }
